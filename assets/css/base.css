@@ -1,0 +1,110 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000 ;
+    --text-color: #333 ;
+    --border-color: #dbdbdb;
+
+    --first-color: #0A369D ;
+    --second-color: rgb(68, 114, 202) ;
+    --third-color: #5E7CE2 ;
+    --fourth-color: #92B4F4 ;
+    --fifth-color: #CFDEE7 ;
+
+
+}
+
+* {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Responsive */
+
+
+
+/* .grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+
+} */
+
+/* .grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.grid__column-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.33%;
+} */
+
+/* Common */
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.line {
+    font-weight: 700;
+    color: #ef6249;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+}
+
+.btn {
+    font-size: 1.6rem;
+    font-size: 1.4rem;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background: #ef6249;
+    color: #fff;
+    border: 2px solid #ef6249;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.btn:hover {
+    background: #f17660;
+    border-color: #f17660;
+    color: #fff;
+}
+
+
+/* Web container */
+
+.aboutme_img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Keyframe */
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,266 @@
+/* Tablet & Mobile */
+
+@media (max-width: 63.9375em) {
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+
+    .places__heading1-border,
+    .places__heading2-border {
+        display: none;
+    }
+
+    .places__heading1,
+    .places_heading2-total {
+        text-align: center;
+    }
+
+    .places__heading1 {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .cuisine__heading {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+    
+    .header_navbar_link {
+        padding: 0 11px;
+    }
+
+    .header_navbar_list1 {
+        /* padding-right: 0;
+        padding-left: 24px; */
+    }
+
+    .header_navbar_item {
+        font-size: 1.6rem;
+    }
+
+    .ml-4-ontablet {
+        margin-left: 5px;
+    }
+
+    .aboutme-text-welcome {
+        font-size: 3.6rem;
+    }
+
+    .places__heading1 .minhdang {
+        font-size: 2.5rem;
+    }
+
+    .places_danang-heading {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .places_danang-des {
+        font-size: 1.6rem;
+    }
+
+    .m-o-1-vinh {
+        margin-left: 8.33333%;
+    }
+
+    .places_danang_texthover {
+        font-size: 4rem;
+    }
+
+    .places_heading2-total {
+        font-size: 2.5rem;
+    }
+
+    .places_visitedplace .col.m-6 {
+        padding: 0 8px;
+    }
+
+    .instagram_bar-left {
+        width: 40%;
+    }
+
+    .container_invite-background {
+        padding: 0 120px 0 100px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header_navbar_item {
+        display: none;
+    }
+    
+    .navbar-mobile-btn {
+        display: block;
+    }
+
+    .c-o-9-vinh {
+        margin-left: 75%;
+    }
+
+    .header_navbar {
+        justify-content: space-between;
+    }
+
+    .header_navbar_search {
+        margin-right: 12px;
+    }
+
+    .aboutme-text {
+        padding: 16px;
+    }
+
+    .aboutme-text-hello {
+        font-size: 2.7rem;
+    }
+
+    .aboutme-text-welcome {
+        font-size: 2.2rem;
+    }
+
+    .places__heading1 .minhdang,
+    .places_heading2-total {
+        font-size: 2.4rem;
+    }
+
+    .c-o-1-vinh {
+        margin-left: 8.33333%;
+    }
+
+    .places_danang_texthover {
+        font-size: 2.8rem;
+    }
+
+    .places_danang-heading {
+        margin: 20px 0;
+    }
+
+    .places_visitedplace-heading {
+        font-size: 1.8rem;
+        text-align: center ;
+    }
+
+    .places_visitedplace-border {
+        top: 6%;
+        left: 15%;
+    }
+
+    .places_visitedplace-des {
+        font-size: 1rem;
+        margin-left: 8px;
+        top: 8%;
+    }
+
+    .grid-football-body1-title {
+        line-height: 2.8rem;
+        margin-right: 8px;
+    }
+
+    .grid-football-body2-title {
+        margin-left: 16px;
+    }
+
+    .cuisine__body .row {
+        margin: 0 32px;
+    }
+
+    .cuisine__body .row .instagram {
+        padding: 0 16px;
+    }
+
+    .instagram_heading {
+        margin-top: 12px;
+    }
+
+    .instagram_bar-left {
+        width: 32%;
+    }
+
+    .container_invite-background {
+        padding: 0 20px;
+    }
+
+    .container_invite-title {
+        font-size: 2rem;
+    }
+
+    .container_contactme {
+        
+        margin: 60px 32px 58px;
+    }
+
+    .contactme-body-left-btn {
+        
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .footer_wrapper-left {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .footer_wrapper-social {
+        text-align: center;
+    }
+
+    .grid-football_title {
+        line-height: 3rem;
+    }
+
+    .grid-football_body2.row ,
+    .grid-football_body1.row {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .container_invite-des {
+        font-size: 1.3rem;
+    }
+
+    .container_invite-btn {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1.4rem;
+    }
+
+}
+
+/* PC */
+
+@media (min-width: 64em) {
+    .l-o-1-vinh {
+        margin-left: 8.33333%;
+    }
+
+    .places_visitedplace .row .col.l-4 {
+        padding: 0 12px;
+    }
+
+
+}
+
+/* PC Resolution */
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .container_contactme-body-right.col.l-3 {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+}
